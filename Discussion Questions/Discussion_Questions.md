@@ -31,3 +31,29 @@ It’s good for apps with lots of network or file operations.
 Node.js uses **non-blocking I/O**, meaning it doesn’t wait for one task (like reading a file) to finish before starting the next. Instead, it continues running other code and handles the result later using callbacks or promises.
 
 This makes web apps **faster and more responsive**, especially when handling many users at once, like in APIs or streaming apps.
+
+## Version Control
+
+
+### 1. Why is version control important in software development?
+
+Version control is important because it helps keep track of every change made to the code. It allows you to go back to previous versions, fix mistakes, and see who made what change. It also prevents losing code and helps manage updates in a clean and organized way.
+
+
+
+### 2. How does version control help in team collaboration?
+
+It allows many developers to work on the same project without clashing. Each person can work on their own branch, and changes can be reviewed before merging. This makes teamwork smooth, avoids code overwrites, and keeps everyone in sync.
+
+
+
+### 3. What are the best practices for organizing a Git repository?
+
+* Use clear folder structures (e.g., `src/`, `assets/`, `docs/`)
+* Write helpful commit messages
+* Always use branches for features or fixes
+* Keep the `main` branch stable
+* Use `.gitignore` to avoid tracking unwanted files
+* Keep README updated
+
+These makes project clean, easy to manage, and team-friendly.
