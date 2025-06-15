@@ -47,6 +47,5 @@ Remote repositories are online versions of your project (e.g. on GitHub). You ma
 * `git pull origin main` – pull updates from GitHub
 * `git remote remove origin` – remove the remote
 
-This lets you collaborate and back up your code online.
 
 **Reference:** [https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
