@@ -1,5 +1,5 @@
 # Architecture Questions
----
+
 
 
 ### 1. How does Node.js handle multiple concurrent connections despite being single-threaded?
@@ -23,4 +23,3 @@ Non-blocking I/O means Node.js doesn’t wait for tasks like reading files or fe
 Node.js runs on an event-driven system, which means it reacts to events like clicks, data arrival, or timers. It uses an event loop to manage these actions. This makes it efficient and responsive, especially for apps that do a lot of I/O like APIs or messaging platforms.
 
 **Reference:** [https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
-
