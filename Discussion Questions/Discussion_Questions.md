@@ -32,6 +32,7 @@ Node.js uses **non-blocking I/O**, meaning it doesn’t wait for one task (like 
 
 This makes web apps **faster and more responsive**, especially when handling many users at once, like in APIs or streaming apps.
 
+---
 ## Version Control
 
 
@@ -57,3 +58,31 @@ It allows many developers to work on the same project without clashing. Each per
 * Keep README updated
 
 These makes project clean, easy to manage, and team-friendly.
+
+---
+
+## Combined Concepts
+
+
+### 1. How would you explain the relationship between Node.js and version control in a development workflow?
+
+Node.js is used to build the app, while version control (like Git) is used to track changes in the Node.js project. Together, they help you build and manage your app smoothly—Node.js handles the logic, and Git makes sure you don’t lose track of what’s been changed or by who.
+
+
+
+### 2. What are the key considerations when setting up a new Node.js project with version control?
+
+* Initialize Git first using `git init`
+* Run `npm init` to create `package.json`
+* Add `node_modules/` to `.gitignore` so it’s not tracked
+* Create a clear folder structure
+* Make the first commit with a message like `Initial commit`
+
+This setup keeps the project clean and trackable from day one.
+
+
+
+### 3. How can version control help in managing Node.js dependencies?
+
+Instead of tracking all the installed packages, Git only tracks the `package.json` and `package-lock.json` files. These files list all dependencies and their versions. So when someone else clones your repo, they can run `npm install` to get the exact same setup. This keeps the app consistent across all devices.
+
